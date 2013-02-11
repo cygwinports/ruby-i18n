@@ -1,0 +1,8 @@
+inherit rubygem
+
+NAME="ruby-i18n"
+VERSION=0.6.1
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Ruby i18n extension"
+DESCRIPTION="New wave Internationalization support for Ruby."
