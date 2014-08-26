@@ -1,8 +1,14 @@
 inherit rubygem
 
 NAME="ruby-i18n"
-VERSION=0.6.4
+VERSION=0.6.11
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby i18n extension"
 DESCRIPTION="New wave Internationalization support for Ruby."
+
+ARCH=noarch
+
+PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_i18n_CONTENTS="${RUBYGEM_INSTDIR#/} ${RUBYGEM_SPEC#/}"
+ruby_i18n_doc_CONTENTS=${RUBYGEM_DOCDIR#/}
