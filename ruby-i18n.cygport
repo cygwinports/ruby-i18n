@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-i18n"
-VERSION=0.6.11
+VERSION=0.7.0
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby i18n extension"
